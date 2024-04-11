@@ -158,7 +158,6 @@ class Screen:
         self._height_cm = self.height / CM_TO_IN
         return self._height_cm
 
-
     @property
     def width_cm(self):
         self._width_cm = self.width / CM_TO_IN
